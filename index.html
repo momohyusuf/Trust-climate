@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+<link rel="shortcut icon" href="./images//icon.png" type="image/x-icon">
+    <title>Trust Climate App</title>
+  </head>
+  <>
+    <section class="container">
+      <header>
+        <h1>Trust Climate app</h1>
+        <p>The Climate Is Changing So Should We</p>
+      </header>
+      <!-- main weather  -->
+      <section class="weather--app--container">
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Enter your location e.g Abuja"
+            id="location--name--value"
+          />
+          <button id="get-weather-info">
+            <i class="material-icons"> search </i>
+          </button>
+        </div>
+        <!-- ----------- -->
+        <div class="weather--information--header">
+          <h1 id="location"></h1>
+          <p>Current Weather</p>
+          <p class="align">
+            <i class="material-icons"> history </i>Updated:
+            <span id="last--update"></span>
+          </p>
+        </div>
+
+        <div class="weather-information-main">
+          <div style="line-height: 2" class="wake--up">
+            <small id="time"></small>
+            <p class="align">
+              <i style="color: #ec7401" class="material-icons"> wb_sunny </i>
+              <span id="sunrise"></span>
+            </p>
+            <p class="align">
+              <i class="material-icons"> wb_sunny </i>
+              <span id="sunset"></span>
+            </p>
+          </div>
+
+          <div>
+            <p id="weather-condition" style="text-align: center;"></p>
+
+            <img id="weather-image" src="" alt="" />
+          </div>
+        </div>
+        <!-- ----------- -->
+
+        <!-- ----------- -->
+        <section class="weather-information-sub-main">
+          <div>
+            Celsius
+            <p><span id="celsius"></span>ºC</p>
+          </div>
+          <div>
+            Fahrenheit
+            <p><span id="fahrenheit"></span>°F</p>
+          </div>
+          <div>
+            Humidity
+            <p id="humidity"></p>
+          </div>
+          <div>
+            Wind
+            <p id="wind"></p>
+          </div>
+          <div>
+            Wind Direction
+            <p id="wind-direction"></p>
+          </div>
+        </section>
+        <!-- ------ -->
+
+        <section id="twenty-four-hour-forecast"></section>
+      </section>
+      <!-- --------------- -->
+    </section>
+    <!-- 
+    Climate News Section -->
+    -->
+    <section class="climate--news--section">
+      <h2 style="color: white">Trending Climate News</h2>
+      <section class="climate--news--container"></section>
+    </section>
+
+    <!-- ------------------------ -->
+
+    <!-- climate disaster videos -->
+
+     <section class="climate--change--advocacy--section">
+      <h2>Why You Should Advocate for Climate Change</h2>
+      <p>
+        <q
+          >Nature provides fundamental rights to every living being on this
+          planet, and these rights are in grave danger due to these climate
+          changes. By preserving a healthy environment, fighting climate change
+          offers us an opportunity to put people’s welfare first. As a result,
+          we will promote human rights by allowing more people to use clean,
+          affordable energy sources and create new employment possibilities in
+          new industries.</q
+        >
+        --Grace Griffin
+      </p>
+      <h2>Notable consequences of bad Climate Change</h2>
+
+      <div class="videos">
+       <div>
+         <iframe
+          max-width="500"
+          height="315"
+          src="https://www.youtube.com/embed/SDRxfuEvqGg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          max-width="460"
+          height="315"
+          src="https://www.youtube.com/embed/uynhvHZUOOo"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          max-width="460"
+          height="315"
+          src="https://www.youtube.com/embed/228zX56NCNk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          max-width="460"
+          height="315"
+          src="https://www.youtube.com/embed/NvAI3ia1RYc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <iframe max-width="460" height="315" src="https://www.youtube.com/embed/Gl8ldcroIkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+        <!--  -->
+      </div>
+    </section> -->
+  <footer><p>
+    Made with love💓 by the code rangers team to create climate change awareness 2022
+  </p></footer>
+    <!--  -->
+    <script src="weatherApp.js"></script>
+    <script src="climateNewsApp.js"></script>
+  </body>
+</html>
